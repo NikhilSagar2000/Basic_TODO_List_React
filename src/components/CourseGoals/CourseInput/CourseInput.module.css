@@ -19,8 +19,8 @@
 
 .form-control input:focus {
   outline: none;
-  background: #fad0ec;
-  border-color: #8b005d;
+  background: #e6fada;
+  border-color: #72c748;
 }
 
 .form-control i{
@@ -31,6 +31,7 @@
 
 .form-control.empty input{
   border-color: red!important;
+  background: rgb(255, 219, 219);
 }
 
 .form-control.empty label{

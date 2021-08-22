@@ -6,8 +6,8 @@ import './App.css';
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([
-    { text: 'Do all exercises!', id: 'g1' },
-    { text: 'Finish the course!', id: 'g2' }
+    { text: 'Wake up before 6am.', id: 'g1' },
+    { text: 'Go For a walk.', id: 'g2' }
   ]);
 
   const addGoalHandler = enteredText => {
@@ -26,7 +26,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
+    <p style={{ textAlign: 'center' }}>You Shouldnot take a Day off.</p>
   );
 
   if (courseGoals.length > 0) {
